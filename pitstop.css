@@ -1,0 +1,54 @@
+.jumbotron {
+
+min-height: 400px;
+
+background-image: url('bike.jpg');
+
+background-size: cover;
+}
+
+.jumbotron h1 {
+    font-family: 'Righteous', cursive;
+    color: black;
+    margin-bottom: 10px;
+   }
+
+.navbar-inverse {
+  font-family: 'Righteous', cursive;
+  background-color: rgba(32, 35, 41,0.8);
+}
+
+h2 {
+	font-family: 'Droid Sans', sans-serif;
+}
+p {
+	font-family: 'Droid Sans', sans-serif;
+	padding-top: 10px;
+}
+.featurette-heading {
+	margin-top: 120px;
+	font-size: 50px;
+}
+
+
+address {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-family: 'Droid Sans', sans-serif;
+}
+#map {
+        height: 400px;
+        width: 60%;
+        background-color: grey;
+        padding: 10px;
+       }
+h3 {
+		font-family: 'Droid Sans', sans-serif;
+
+}
+.logo {
+	height: 20%x;
+	width: 20%;
+}
