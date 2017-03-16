@@ -2,196 +2,201 @@
 <html lang="en">
 <head>
   <title>pitstops | bikebrek</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="pitstop.css">
-	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="pitstop.css">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 
-	<!-- jQuery library -->
-<script src="http://maps.google.com/maps/api/js?sensor=false" 
-          type="text/javascript"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maps.google.com/maps/api/js?sensor=false" 
+            type="text/javascript"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 
 <body >
 <!--------/NAVBAR================================------>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="homepage/ddwebsite.html">bikebrek</a>
-		</div>
-		<div class="collapse navbar-collapse">
-			<ul class="nav navbar-nav navbar-left">
-				<li><a href="#contact-us">get in touch</a></li>
-  				<li><a href="#buzz">pitstops</a></li>
-  				<li><a href="menu.html">menu</a></li>
-  				<li class="dropdown">
-    				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
-         			 	<ul class="dropdown-menu">
-           				 	<li><a href="#About">about</a></li>
-           				 	<li><a href="#Our-mission">our mission</a></li>
-           				 </ul>
-           		</li>
-           	</ul>
-        		
-    	</div>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="homepage/ddwebsite.html">bikebrek</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="#contact-us">get in touch</a></li>
+          <li><a href="#buzz">pitstops</a></li>
+          <li><a href="menu.html">menu</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#About">about</a></li>
+                    <li><a href="#Our-mission">our mission</a></li>
+                   </ul>
+              </li>
+            </ul>
+            
+      </div>
         </div>
-	</nav>
+  </nav>
 
 <!--------/HEADER================================------>
-	<div class="jumbotron text-center">
-    	<div class="container">
-    		<h1>pitstops</h1>
-    		<img class="logo img-responsive center-block" src="bikebreklogo.png">
-    		<p>&nbsp;</p>
-		</div>
+  <div class="jumbotron text-center">
+    <h1>pitstops</h1>
+    <div class="logo-container">
+      <img class="logo img-responsive center-block" src="bikebreklogo.png">
     </div>
+    <p>&nbsp;</p>
+  </div>
 
 <!--------/ALL ROWS================================------>
-<div class="container container-fluid">
-	<hr class="featurette-divider">
+<div class="container">
+  <hr class="featurette-divider">
 
 <!--------/ROW 1================================------>
-	<div class="row featurette">
-		<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-			<h2 class="featurette-heading">2 Albemarle Street <br/><span class="text-muted">Mayfair</span>
-			</h2>
-			<p class="lead">
-				<address>
-  					<strong>Coming soon!</strong><br>
- 					2 Albemarle Street<br>
- 					Mayfair,<br>
-  					London<br>
-  					W1S 4HD
-  				</address>
-  			</p>
-  		</div>
-  		<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-  			<img class="featurette-image img-responsive center-block img-rounded" src="pitstop-images/abermale.jpg">
-  		</div>
-	</div>
-	<hr class="featurette-divider">
+  <div class="row featurette">
+    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+      <h2 class="featurette-heading">2 Albemarle Street <br/><span class="text-muted">Mayfair</span>
+      </h2>
+      <p class="lead">
+        <address>
+          <strong>Coming soon!</strong><br>
+          2 Albemarle Street<br>
+          Mayfair,<br>
+          London<br>
+          W1S 4HD
+        </address>
+      </p>
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+      <img class="featurette-image img-responsive center-block img-rounded" src="pitstop-images/abermale.jpg">
+    </div>
+  </div>
+  <hr class="featurette-divider">
 
 <!--------/ROW 2================================------>
-	<div class="row featurette">
-		<div class="col-lg-7 col-md-7 col-lg-push-5 col-md-push-5 col-sm-12 col-xs-12">
-			<h2 class="featurette-heading">122 Leadenhall Street <br/><span class="text-muted">Aldgate</span>
-			</h2>
-			<p class="lead">
-				<address>
-  					<strong>Coming soon!</strong><br>
-  					122 Leadenhall Street<br>
-  					London<br>
-					EC3V 4AB
- 				 </address>
-  			</p>
-  		</div>
-  		<div class="col-lg-5 col-lg-pull-7 col-md-5 col-md-pull-7 col-sm-12 col-xs-12">
-  			<img class="featurette-image img-responsive center-block img-rounded" src="pitstop-images/Leadenhall.jpg">
-  		</div>
-	</div>
-	<hr class="featurette-divider">
+  <div class="row featurette">
+    <div class="col-lg-7 col-md-7 col-lg-push-5 col-md-push-5 col-sm-12 col-xs-12">
+      <h2 class="featurette-heading">122 Leadenhall Street <br/><span class="text-muted">Aldgate</span>
+      </h2>
+      <p class="lead">
+        <address>
+          <strong>Coming soon!</strong><br>
+          122 Leadenhall Street<br>
+          London<br>
+          EC3V 4AB
+       </address>
+      </p>
+    </div>
+    <div class="col-lg-5 col-lg-pull-7 col-md-5 col-md-pull-7 col-sm-12 col-xs-12">
+      <img class="featurette-image img-responsive center-block img-rounded" src="pitstop-images/Leadenhall.jpg">
+    </div>
+  </div>
+  <hr class="featurette-divider">
 
 <!--------/ROW 3================================------>
-	<div class="row featurette">
-		<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-			<h2 class="featurette-heading">47 Lambs Conduit Street <br/><span class="text-muted">Russell Square</span>
-			</h2>
-			<p class="lead">
-				<address>
-  					<strong>Coming soon!</strong><br>
- 					47 Lambs Conduit Street <br>
-  					Russell Square<br>
-  					London<br>
- 					WC1N 3NG
-  				</address>
-  			</p>
- 		</div>
-  		<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-  			<img class="featurette-image img-responsive center-block img-rounded" src="pitstop-images/conduit.jpg">
-  		</div>
-	</div>
-
+  <div class="row featurette">
+    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+      <h2 class="featurette-heading">
+        47 Lambs Conduit Street <br/>
+        <span class="text-muted">Russell Square</span>
+      </h2>
+      <p class="lead">
+        <address>
+          <strong>Coming soon!</strong><br>
+          47 Lambs Conduit Street<br>
+          Russell Square<br>
+          London<br>
+          WC1N 3NG
+        </address>
+      </p>
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+      <img class="featurette-image img-responsive center-block img-rounded" src="pitstop-images/conduit.jpg">
+    </div>
+  </div>
+  <hr class="featurette-divider">
+  
 <!--------/ROW 4================================------>
 
-	<div class="row featurette">
-		<div class="col-lg-7 col-md-7 col-lg-push-5 col-md-push-5 col-sm-12 col-xs-12">
-			<h2 class="featurette-heading">26 Hanson Street <br/><span class="text-muted">Fitzrovia</span>
-			</h2>
-			<p class="lead">
-				<address>
-  					<strong>Coming soon!</strong><br>
-  					26 Hanson Street<br>
-  					Fitzrovia<br>
-  					London<br>
-					W1W 6UH
- 				 </address>
-  			</p>
-  		</div>
-  		<div class="col-lg-5 col-lg-pull-7 col-md-5 col-md-pull-7 col-sm-12 col-xs-12">
-  			<img class="featurette-image img-responsive center-block img-rounded" src="pitstop-images/hanson.jpg">
-  		</div>
-	</div>
-	<hr class="featurette-divider">
+  <div class="row featurette">
+    <div class="col-lg-7 col-md-7 col-lg-push-5 col-md-push-5 col-sm-12 col-xs-12">
+      <h2 class="featurette-heading">26 Hanson Street <br/><span class="text-muted">Fitzrovia</span>
+      </h2>
+      <p class="lead">
+        <address>
+          <strong>Coming soon!</strong><br>
+          26 Hanson Street<br>
+          Fitzrovia<br>
+          London<br>
+          W1W 6UH
+       </address>
+      </p>
+    </div>
+    <div class="col-lg-5 col-lg-pull-7 col-md-5 col-md-pull-7 col-sm-12 col-xs-12">
+      <img class="featurette-image img-responsive center-block img-rounded" src="pitstop-images/hanson.jpg">
+    </div>
+  </div>
+  <hr class="featurette-divider">
+
+
+  <!--------/MAP================================------>
+  <h3 class="text-center">Come and find us!</h3>
+  <div id="map" class="center-block img-responsive"></div>
+
 </div>
-<div class="container-fluid">
-<!--------/MAP================================------>
-<h3 class="text-center">Come and find us!</h3>
-    <div id="map" class="center-block img-responsive">
-    		<script type="text/javascript">
-   				 var locations = [
-			      ['2 Albemarle Street', 51.508369, -0.140765, 4],
-			      ['122 Leadenhall Street', 51.514155, -0.082251, 3],
-			      ['47 Lamb Street', 51.521920, -0.118633, 2],
-			      ['26 Hanson Street', -51.520469, -0.140435, 1],
-			         ];
 
-    		var map = new google.maps.Map(document.getElementById('map'), {
-     			 zoom: 12,
-     			 center: new google.maps.LatLng(51.518305, -0.128385),
-      			mapTypeId: google.maps.MapTypeId.ROADMAP
-    				});
 
-   				 var infowindow = new google.maps.InfoWindow();
+<script type="text/javascript">
+  var locations = [
+    ['2 Albemarle Street', 51.508369, -0.140765, 4],
+    ['122 Leadenhall Street', 51.514155, -0.082251, 3],
+    ['47 Lamb Street', 51.521920, -0.118633, 2],
+    ['26 Hanson Street', 51.520469, -0.140435, 1],
+  ];
 
-   				 var marker, i;
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 12,
+    center: new google.maps.LatLng(51.518305, -0.128385),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
 
-	   	 for (i = 0; i < locations.length; i++) {  
-	      marker = new google.maps.Marker({
-	        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-	        map: map
-	      });
+  var infowindow = new google.maps.InfoWindow();
 
-      google.maps.event.addListener(marker, 'click', (function(marker, i) {
-        return function() {
-          infowindow.setContent(locations[i][0]);
-          infowindow.open(map, marker);
-        }
-      })(marker, i));
-    }
+  var marker, i;
 
-    $(document).ready(function() {
-   $('div').mouseenter(function() {
-       $(this).animate({
-           height: '+=10px'
-       });
-   });
-   $('div').mouseleave(function() {
-       $(this).animate({
-           height: '-=10px'
-       }); 
-   });
-   $('div').click(function() {
-       $(this).toggle(1000);
-   }); 
-});
-  </script>
-   </div>
-</div>div
+  for (i = 0; i < locations.length; i++) {  
+    marker = new google.maps.Marker({
+      position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+      map: map
+    });
+
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      return function() {
+        infowindow.setContent(locations[i][0]);
+        infowindow.open(map, marker);
+      }
+    })(marker, i));
+  }
+
+  $(document).ready(function() {
+    $('.logo1').mouseenter(function() {
+      $(this).animate({
+        height: '+=10%',
+        width: '+=10%'
+      });
+    });
+    $('.logo1').mouseleave(function() {
+      $(this).animate({
+        height: '-=10%',
+        width: '-=10%'
+      }); 
+    });
+  });
+</script>
   </body>
 </html>
