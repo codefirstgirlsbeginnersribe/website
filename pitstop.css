@@ -1,16 +1,19 @@
 .jumbotron {
-  min-height: 400px;
 
-  background-image: url('bike.jpg');
+min-height: 400px;
 
-  background-size: cover;
+background-image: url('bikebrekheadertrans.jpg');
+
+background-size: cover;
 }
 
 .jumbotron h1 {
-  font-family: 'Righteous', cursive;
-  color: black;
-  margin-bottom: 10px;
- }
+    font-family: 'Righteous', cursive;
+    font-size: 80px;
+    color: black;
+   -webkit-text-stroke-width: 1.5px;
+   -webkit-text-stroke-color: white;
+       }
 
 .navbar-inverse {
   font-family: 'Righteous', cursive;
@@ -51,11 +54,13 @@ address {
 }
 
 #map {
-  height: 400px;
-  width: 60%;
-  background-color: grey;
-  padding: 10px;
-}
+
+        height: 400px;
+        width: 60%;
+        background-color: grey;
+        padding: 10px;
+        padding-bottom: 40px;
+       }
 
 h3 {
 	font-family: 'Droid Sans', sans-serif;
@@ -65,6 +70,40 @@ h3 {
 	width: 20%;
 }
 
+.btn-header{
+  background-color: black;
+
+}
+.btn-header a{
+  color: white;
+}
+
+#footer {
+  padding-top: 20px;
+  padding-bottom: 120px;
+  background-color: #4c4f53;
+}
+
+#footer h4 {
+  opacity: 0.8;
+  color: white;
+  font-family: 'Righteous', cursive;
+}
+
+#footer p {
+  color:white;
+}
+#footer a {
+  color: #73cedd;
+}
+
+#footer-social p {
+  color: blue;
+}
+#footer-social a {
+  opacity: 0.8;
+  color: blue;
+}
 
 .lead {
   margin-bottom: 20px;
@@ -72,7 +111,6 @@ h3 {
   font-weight: 300;
   line-height: 1.4;
 }
-
 
 
 /* Menu */
@@ -111,5 +149,20 @@ h3 {
   margin-top: 45%;
 }
 
+.modal-header {
+      font-family: 'Righteous', cursive;
+      background-color: #73cedd;
 
+}
+.modal-footer > button {
+  background-color: #73cedd;
+}
 
+.about-image {
+  height: 200px;
+  width: 200px;
+}
+
+.gray {
+  background-color: black;
+}
