@@ -2,16 +2,18 @@
 
 min-height: 400px;
 
-background-image: url('bike.jpg');
+background-image: url('bikebrekheadertrans.jpg');
 
 background-size: cover;
 }
 
 .jumbotron h1 {
     font-family: 'Righteous', cursive;
-    color: white;
-    margin-bottom: 1em;
-   }
+    font-size: 80px;
+    color: black;
+   -webkit-text-stroke-width: 1.5px;
+   -webkit-text-stroke-color: white;
+       }
 
 .navbar-inverse {
   font-family: 'Righteous', cursive;
@@ -19,16 +21,76 @@ background-size: cover;
 }
 
 h2 {
-	font-family: 'Droid Sans', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 p {
-	font-family: 'Droid Sans', sans-serif;
-	padding-top: 10px;
+  font-family: 'Droid Sans', sans-serif;
+  padding-top: 10px;
 }
 .featurette-heading {
-	margin-top: 120px;
-	font-size: 50px;
+  margin-top: 120px;
+  font-size: 50px;
 }
+
+
+address {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-family: 'Droid Sans', sans-serif;
+
+  }
+#map {
+        height: 400px;
+        width: 60%;
+        background-color: grey;
+        padding: 10px;
+        padding-bottom: 40px;
+       }
+h3 {
+    font-family: 'Droid Sans', sans-serif;
+
+}
+.logo {
+  width: 20%;
+}
+
+.btn-header{
+  background-color: black;
+
+}
+.btn-header a{
+  color: white;
+}
+
+#footer {
+  padding-top: 20px;
+  padding-bottom: 120px;
+  background-color: #4c4f53;
+}
+
+#footer h4 {
+  opacity: 0.8;
+  color: white;
+  font-family: 'Righteous', cursive;
+}
+
+#footer p {
+  color:white;
+}
+#footer a {
+  color: #73cedd;
+}
+
+#footer-social p {
+  color: blue;
+}
+#footer-social a {
+  opacity: 0.8;
+  color: blue;
+}
+
 
 .lead {
     margin-bottom: 20px;
@@ -49,7 +111,8 @@ p {
   height: 100%;
 }
 
-.menu-item > img {
+.menu-pictures {
+  padding-bottom: 5%;
 }
 
 .menu-item > div {
@@ -64,6 +127,13 @@ p {
   height: 100%;
 }
 
+.menu-item h4 {
+  opacity: 1;
+  margin-top: 45%;
+  font-family: 'Righteous', cursive;
+  font-weight: 700;
+}
+}
 .menu-item > div.trans {
   opacity: 0.75;
   background-color: white;
@@ -71,11 +141,20 @@ p {
   z-index: 99;
 }
 
-.menu-item > div > p {
-  opacity: 1;
-
-  margin-top: 45%;
+button {
+    font-family: 'Righteous', cursive;
 }
 
+.modal-header {
+      font-family: 'Righteous', cursive;
+      background-color: #73cedd;
 
+}
+.modal-footer > button {
+  background-color: #73cedd;
+}
 
+.about-image {
+  height: 200px;
+  width: 200px;
+}

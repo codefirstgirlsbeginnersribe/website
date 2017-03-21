@@ -32,7 +32,7 @@
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#About">about</a></li>
+							<li><a href="about.html"">about</a></li>
 							<li><a href="#Our-mission">our mission</a></li>
 						 </ul>
 				</li>
@@ -45,9 +45,7 @@
 <div class="jumbotron text-center">
 	<div class="container">
 		<h1 class="page-title">menu</h1>
-		<img class="logo img-responsive center-block" src="bikebreklogo.png">
-		<p>&nbsp;</p>
-		</div>
+	</div>
 </div>
 
 <!--------/MENU TITLE================================------>
@@ -65,8 +63,8 @@
 				<div class="menu-item">
 					<div class="trans"></div>
 					<div>
-						<p>acai-bowls</p>
-						<button class="btn btn-primary" data-toggle="modal" data-target="#allergen-modal">Allergen Information</button>
+						<h4>acai bowls</h4>
+						<button class="btn btn-default" type="submit" data-toggle="modal" data-target="#acaiModal">allergens</button>
 					</div>
 					<img src="menu-images/acai-bowl.jpg" alt="..." class="img-rounded img-responsive">
 				</div>
@@ -77,8 +75,8 @@
 				<div class="menu-item">
 					<div class="trans"></div>
 					<div>
-						<p>smoothies</p>
-						<button class="btn btn-primary" data-toggle="modal" data-target="#allergen-modal">Allergen Information</button>
+						<h4>smoothies</h4>
+						<button class="btn btn-default" type="submit" data-toggle="modal" data-target="#smoothieModal">allergens</button>
 					</div>
 					<img src="menu-images/smoothie.jpg" alt="..." class="img-rounded img-responsive">
 				</div>
@@ -89,8 +87,8 @@
 				<div class="menu-item">
 					<div class="trans"></div>
 					<div>
-						<p>french toast</p>
-						<button class="btn btn-primary" data-toggle="modal" data-target="#allergen-modal">Allergen Information</button>
+						<h4>french toast</h4>
+						<button class="btn btn-default" type="submit" data-toggle="modal" data-target="#frenchModal">allergens</button>
 					</div>
 					<img src="menu-images/french-toast.jpg" alt="..." class="img-rounded img-responsive">
 				</div>
@@ -101,8 +99,8 @@
 				<div class="menu-item">
 					<div class="trans"></div>
 					<div>
-						<p>breakfast muffins</p>
-						<button class="btn btn-primary" data-toggle="modal" data-target="#allergen-modal">Allergen Information</button>
+						<h4>breakfast muffins</h4>
+						<button class="btn btn-default" type="submit" data-toggle="modal" data-target="#muffinModal">allergens</button>
 					</div>
 					<img src="menu-images/muffin.jpg" alt="..." class="img-rounded img-responsive">
 				</div>
@@ -117,8 +115,8 @@
 				<div class="menu-item">
 					<div class="trans"></div>
 					<div>
-						<p>pancakes</p>
-						<button class="btn btn-primary" data-toggle="modal" data-target="#allergen-modal">Allergen Information</button>
+						<h4>pancakes</h4>
+						<button class="btn btn-default" type="submit" data-toggle="modal" data-target="#pancakesModal">allergens</button>
 					</div>
 					<img src="menu-images/pancakes.jpg" alt="..." class="img-rounded img-responsive">
 				</div>
@@ -129,8 +127,9 @@
 				<div class="menu-item">
 					<div class="trans"></div>
 					<div>
-						<p>panini</p>
-						<button class="btn btn-primary" data-toggle="modal" data-target="#allergen-modal">Allergen Information</button>
+<<<<<<< HEAD
+						<h4>panini</h4>
+						<button class="btn btn-default" type="submit" data-toggle="modal" data-target="#paniniModal">allergens</button>
 					</div>
 					<img src="menu-images/panini.jpg" alt="..." class="img-rounded img-responsive">
 				</div>
@@ -141,8 +140,8 @@
 				<div class="menu-item">
 					<div class="trans"></div>
 					<div>
-						<p>toasties</p>
-						<button class="btn btn-primary" data-toggle="modal" data-target="#allergen-modal">Allergen Information</button>
+						<h4>toasties</h4>
+						<button class="btn btn-default" type="submit" data-toggle="modal" data-target="#toastieModal">allergens</button>
 					</div>
 					<img src="menu-images/toastie.jpg" alt="..." class="img-rounded img-responsive">
 				</div>
@@ -153,8 +152,8 @@
 				<div class="menu-item">
 					<div class="trans"></div>
 					<div>
-						<p>breakfast bagels</p>
-						<button class="btn btn-primary" data-toggle="modal" data-target="#allergen-modal">Allergen Information</button>
+						<h4>breakfast bagels</h4>
+						<button class="btn btn-default" type="submit" data-toggle="modal" data-target="#bagelModal">allergens</button>
 					</div>
 					<img src="menu-images/breakfast-bagel.jpg" alt="..." class="img-rounded img-responsive">
 				</div>
@@ -166,24 +165,217 @@
 
 
 
-<!-- Modal -->
-<div class="modal fade" id="allergen-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<!--------/MODALS================================------>    
+
+<!--------/MODAL ACAI================================------>    
+
+<div class="modal fade" tabindex="-1" role="dialog" Id="acaiModal">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Allergen Information</h4>
+        <h4 class="modal-title">acai bowl allergens</h4>
       </div>
       <div class="modal-body">
-        Blah blah
+        <p> bikebrek acai bowls are suitable for vegans and are gluten free</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!--------/MODAL SMOOTHIE================================------>    
+
+<div class="modal fade" tabindex="-1" role="dialog" Id="smoothieModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">smoothie allergens</h4>
+      </div>
+      <div class="modal-body">
+        <p>bikebrek smoothies are suitable for vegans and are gluten free</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!--------/MODAL FRENCH TOAST================================------>    
+
+<div class="modal fade" tabindex="-1" role="dialog" Id="frenchModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">french toast allergens</h4>
+      </div>
+      <div class="modal-body">
+        <p>bikebrek french toast contains <strong>egg, milk</strong> and <strong> gluten</strong>.</p>
+        <p>If you would like to order french toast with gluten-free bread please specify this when ordering.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!--------/MODAL MUFFIN================================------>    
+
+
+<div class="modal fade" tabindex="-1" role="dialog" Id="muffinModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">breakfast muffin allergens</h4>
+      </div>
+      <div class="modal-body">
+        <p>bikebrek breakfast muffins contain <strong>egg, milk</strong> and <strong> gluten</strong>.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!--------/MODAL PANCAKES================================------>    
+
+<div class="modal fade" tabindex="-1" role="dialog" Id="pancakesModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">pancakes allergens</h4>
+      </div>
+      <div class="modal-body">
+        <p>bikebrek pancakes contain <strong>egg, milk</strong> and <strong> gluten</strong>.</p>
+        <p>It is possible to order extra-special bikebrek pancakes which are both vegan and gluten free. If you would like this option, please specify when ordering</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!--------/MODAL PANINI================================------>    
+
+<div class="modal fade" tabindex="-1" role="dialog" Id="paniniModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">panini allergens</h4>
+      </div>
+      <div class="modal-body">
+        <p>bikebrek paninis contain <strong>gluten</strong>.</p>
+        <p>bikebrek paninis come with a range of fillings. Please check ingredients before ordering.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!--------/MODAL PANINI================================------>    
+
+<div class="modal fade" tabindex="-1" role="dialog" Id="toastieModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">toastie allergens</h4>
+      </div>
+      <div class="modal-body">
+        <p>bikebrek toasties contain <strong>gluten</strong>.</p>
+        <p>If you would like to order toasties with gluten-free bread please specify this when ordering.</p>
+        <p>bikebrek toasties come with a range of fillings. Please check ingredients before ordering.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!--------/MODAL PANINI================================------>    
+
+<div class="modal fade" tabindex="-1" role="dialog" Id="bagelModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">bagel allergens</h4>
+      </div>
+      <div class="modal-body">
+        <p>bikebrek bagels contain <strong>gluten</strong>.</p>
+        <p>bikebrek bagels come with a range of fillings. Please check ingredients before ordering.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+  <!--------/FOOTER================================------>
+<div id="footer">
+  <div class="container">
+    <div class='col-lg-3 col-sm-12 footer-sitemap'>
+    <h4>Sitemap</h4>
+      <p>
+        <a>home</a><br/>
+        <a>pitstops</a><br/>
+        <a>menu</a><br/>
+        <a>get in touch</a><br/>
+        <a>gallery</a><br/>
+      </p>
     </div>
-  </div>
+    <div class='col-lg-3 col-sm-12 footer-social'>
+      <h4>Follow us</h4>
+        <p>
+          <i class="fa fa-facebook"></i>
+            <a>
+            bikebrek
+            </a><br/>
+          <i class="fa fa-twitter"></i> 
+            <a>
+            @bikebrek
+            </a><br/>
+          <i class="fa fa-instagram"></i>
+            <a>
+            bikebrek
+            </a><br/>
+          <i class="fa fa-snapchat"></i>
+            <a>
+            bikebrek
+            </a>
+        </p>
+    </div>
+    <div class='col-lg-3 col-sm-12 footer-github'>
+      <h4><i class="fa fa-github"></i> Find us on Github</h4>
+        <p>
+          <a>Becca</a><br/>
+          <a>Ricky</a><br/>
+          <a>bikebrek</a>
+        </p>
+    </div>
+    <div class='col-lg-3 col-sm-12 footer-about'>
+      <h4>About bikebrek</h4>
+      <p>bikebrek is a fantastic idea invented by Ricky and Becca as part of their coding course. They hope to one day bring themselves all of these breakfast treats.</p>
+    </div>
 </div>
 
+<!--------/SCRIPT================================------>    
 
 <script type="text/javascript">
 	$(".menu-item").mouseenter(function(){
