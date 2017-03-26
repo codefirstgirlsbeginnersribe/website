@@ -15,6 +15,7 @@ background-size: cover;
    -webkit-text-stroke-color: white;
        }
 
+
 .navbar-inverse {
   font-family: 'Righteous', cursive;
   background-color: rgba(32, 35, 41,0.8);
@@ -143,10 +144,15 @@ h3 {
   z-index: 99;
 }
 
-.menu-item > div > p {
+.menu-item > div > h4 {
   opacity: 1;
+  font-family: 'Righteous', cursive;
 
   margin-top: 45%;
+}
+
+  .menu-item > button {
+  background-color: #73cedd;
 }
 
 .modal-header {
@@ -161,8 +167,4 @@ h3 {
 .about-image {
   height: 200px;
   width: 200px;
-}
-
-.gray {
-  background-color: black;
 }
